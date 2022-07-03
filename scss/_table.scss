@@ -1,0 +1,105 @@
+#calendrier-formation_filter{
+  float:right;
+  margin-top:-30px;
+  margin-bottom: 10px;
+  label{
+    font-weight: bold;
+  }
+  input{
+    margin-right:5px
+  }
+}  
+
+#calendrier-formation_paginate{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.paginate_button{
+  padding:0.6rem;
+  color:black;
+  cursor:pointer;
+  &:hover{
+    color:$color-link-hover;
+  }
+  &.current{
+    color:$yellow;
+    font-weight: bold;
+  }
+}
+#calendrier-formation_length{
+  label{
+    font-weight: bold;
+  }
+  input{
+    margin-right:5px
+  }
+}
+#calendrier-formation_info{
+  font-weight: bold;
+}
+#calendrier-formation_length{
+  margin-top:30px;
+}
+
+#calendrier-formation{
+  th{
+    &.sorting_asc{
+      &:after{
+      font-size:1.5rem;
+      }
+      &:before{
+        font-size:1.5rem;
+        }
+    }
+
+  }
+  .bg-head{
+    background-color: $geof-color-table-head;
+    color:$white
+  }
+  .table-primary-geof{
+    &:hover{
+      background-color: $table-hover;
+    }
+    background-color:$table-primary;
+  }
+  .table-secondary-geof{
+    &:hover{
+      background-color: $table-hover;
+    }
+    background-color:$table-secondary;
+  }
+  tr{
+    height:70px;
+    th{
+      vertical-align: middle;
+      color: $color-link;
+      padding:1.3rem;
+    }
+    &:first-child{
+      th{       
+        &:first-child{
+          border-top-left-radius: 10px;
+        }
+        &:last-child{
+          border-top-right-radius: 10px;
+        }
+      }
+    }
+    &:last-child{
+      border:solid 0px transparent;
+      td{
+        &:first-child{
+          border-bottom-left-radius: 10px;          
+        }
+        &:last-child{
+          border-bottom-right-radius: 10px;
+        }
+      }
+    }
+    td{
+      vertical-align: middle;
+    }
+  }
+}

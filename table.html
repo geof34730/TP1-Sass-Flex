@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendrier des formations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/r-2.3.0/datatables.min.css"/>
+</head>
+<body>
+  <header class="container-fluid ">
+    <section><a href="#"><img src="img/Logo_Diginamic_Passeport-e1492187736114.png" alt="Logo Diginamic - Retour à l'accueil"></a></section>
+  </header>
+  <div class="m-4">
+    <nav class="navbar navbar-expand-xl  navbar-light justify-content-end">
+      <h2 class="visually-hidden">Navigation du site</h2>
+      <button type="button" class="navbar-toggler float-right " data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon btn"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="#" class=" nav-link link-geof-color-1 dropdown-toggle">Diginamic</a>
+          <a href="#" class=" nav-link link-geof-color-1 dropdown-toggle">Les formations</a>
+          <a href="#" class=" nav-link link-geof-color-1 dropdown-toggle">Alternance</a>
+          <a href="#" class=" nav-link link-geof-color-1 dropdown-toggle">Calendrier</a>
+          <a href="#" class=" nav-link link-geof-color-1 dropdown-toggle">Espace entreprises</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+    <div class="container-fluid sous-header ">
+      <section class="container py-4">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item w"><a href="#">Accueil</a></li>
+            <li class="breadcrumb-item active">Calendrier des formations</li>
+          </ol>
+        </nav>
+        <h2>Calendrier des formations</h2>
+        <span>Trouvez la formation Diginamic qui vous convient, au bon endroit, au bon moment.</span>
+      </section>
+    </div>
+
+    <div class="container">
+      <h3 class="visually-hidden">Tableau listing formation</h3>
+      <table id="calendrier-formation" class="table table-hover" role="calendrier des formations".>
+        <thead  class="bg-head">
+          <tr>
+            <th>Date de début</th>
+            <th>Date de fin</th>
+            <th>Formation</th>
+            <th>Lieux</th>
+            <th>Cartifications</th>            
+          </tr>
+        </thead>
+        <tbody>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr  class="table-primary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+          <tr class="table-secondary-geof">
+            <td>26/09/2022</td>
+            <td>29/04/2024</td>
+            <td>Développeur Web et mobile</td>
+            <td>Montpellier</td>
+            <td>BAC+2 - Titre RNCP niveau 5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="container-fluid">
+    <h2 class="visually-hidden">Navigation footer du site</h2>
+    <div class="container">
+      <div
+        class=" d-flex flex-wrap align-items-stretch align-content-stretch  my-4 row justify-content-between g-3 liste-equipes ">
+        <div class="col-12 col-sm-4 col-lg-4 ">
+          <section>
+            <h3>Qui sommes-nous ?</h3>
+            <div>
+              <a href="https://www.diginamic.fr/presentation/">Présentation</a><br>
+              <a href="https://www.diginamic.fr/cfa-informatique/">CFA du numérique</a><br>
+              <a href="https://www.diginamic.fr/category/actualites/">Actualités</a>
+            </div>
+          </section>
+          <section>
+            <h3>Les formations</h3>
+            <div>
+              <a href="https://www.diginamic.fr/catalogue">Catalogue des formations</a><br>
+              <a href="https://www.diginamic.fr/nos-formations-diplomantes">Les formations diplômantes </a><br>
+              <a href="https://www.diginamic.fr/notre-offre/poe">POE : Préparation à l'Emploi</a><br>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-4 ">
+          <section>
+            <h3>Infos pratiques</h3>
+            <div class="textwidget">
+              <a href="https://www.diginamic.fr/nos-implantations-geographiques/">Nos centres deformation</a><br>
+              <a href="https://www.diginamic.fr/infos-pratiques/calendrier">Calendrier des formations</a><br>
+              <a href="https://www.diginamic.fr/financer-votre-formation/">Financer votre formation</a><br>
+              <a href="https://www.diginamic.fr/faq/">FAQ</a><br>
+            </div>
+          </section>
+          <section>
+            <h3>Espace Emploi</h3>
+            <div>
+              <a href="https://www.diginamic.fr/offres-demploi/demandeurs-demploi">Demandeurs d'emploi</a><br>
+              <a href="https://www.diginamic.fr/offres-demploi/recruteurs">Recruteurs</a><br>
+              <a href="https://www.diginamic.fr/jobboard">Job board</a><br>
+              <a href="https://www.diginamic.fr/publier-un-poste">Déposer une offre d'emploi</a>
+            </div>
+          </section>
+          <section id="contact-footer" class="my-3">
+            <h3 class="visually-hidden">Espace Emploi</h3>
+            <p class="my-1">Contactez-nous</p>
+  
+              <div class="col-sm-12 col-sm-8 col-md-12 col-lg-8  py-1 px-4">
+                <span>04.34.48.00.25</span>
+                <br>
+                <span>(N° siège social)</span>
+              </div>
+          </section>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-4 ">
+          <section>
+            <h3>Abonnez-vous à notre newsletter</h3>
+            <div>
+              <div class="d-flex flex-wrap" id="form-email">
+                <form action="#" method="post">
+                  <p>En vous inscrivant à notre newsletter, vous recevrez toute l'actualité de nos centres,
+                    nosformations, ainsi que l'actualité du secteur de la formation professionnelle !</p>
+                  <label>Votre email (*):</label>
+                  <input type="text" name="email">
+                  <button type="submit" class="btn btn-geof-color-3 my-3">Je m'inscris à la Newsletter</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+ <script>
+
+$(document).ready(function () {
+      $('#calendrier-formation').DataTable(
+        {
+          columns: [
+          { orderable: false },
+          { orderable: false },
+          { orderable: true },
+          { orderable: true },
+          { orderable: true },
+            
+          ]
+        }
+      );
+  });
+ </script> 
+
+
+ </body>
+</html>

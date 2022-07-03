@@ -1,0 +1,27 @@
+$geof-color-1: #003350;
+$geof-color-2: #ffffff;
+$geof-color-3:rgb(234, 81, 81);
+$geof-color-4:#61C9E4;
+$color-link:#f9ba00;
+$color-link-hover:#f9ba00;
+$geof-color-table-head:#003350;
+$table-primary: #ffffff;
+$table-secondary:rgb(254, 247, 227);
+$table-hover:#F9BA00;
+
+$custom-spacers: (
+  geof-20: 20px
+);
+
+$custom-sizes: (
+  geof-25: 25%,
+  geof-15: 15%
+);
+
+$custom-theme-color:(
+    geof-color-1: $geof-color-1,
+    geof-color-2: $geof-color-1,
+    geof-color-3: $geof-color-3,
+    geof-color-4: $geof-color-4,
+    geof-color-link-hover:$color-link-hover,
+)
